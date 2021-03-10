@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết chương trình nhập vào giá trị cho chuỗi message.
+
+Nếu giá trị nhập vào là Employee thì hiển thị chuỗi Hello.
+
+Còn lại nếu giá trị nhập vào là Director thì hiển thị chuỗi Greetings
+
+Còn lại nếu giá trị nhập vào chuỗi rỗng thì hiển thị No login
+
+Còn lại hiển thị chuỗi rỗng-->
+
+<script>
+/*
+    Sử dụng toán tử ? : để viết chương trình với cấu trúc điều kiện như sau:
+*/
+/*
+let message;
+
+if (login == 'Employee') {
+    message = 'Hello';
+} else if (login == 'Director') {
+    message = 'Greetings';
+} else if (login == '') {
+    message = 'No login';
+} else {
+    message = '';
+}
+*/
+
+/*
+Nhập vào người dùng
+*/
+let login = prompt("Nhập tên người dùng:");
+
+
+/*
+kiểm tra
+*/
+let message = (login == 'Employee') ?
+    'Hello' :
+    (login == 'Director') ?
+        'Greetings' :
+        (login == '') ?
+            'No login' :
+            '';
+alert(message)
+</script>
+</body>
+</html>

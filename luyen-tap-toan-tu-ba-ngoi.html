@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>luyện tập toán tử 3 ngôi</title>
+</head>
+<body>
+<script>
+  /*  Bài 1: Viết chương trình nhập vào giá trị cho a và b.
+        Tính tổng a và b, nếu tổng nhỏ hơn 4, hiển thị chuỗi Below, ngược lại hiển thị Over.
+        Lưu ý sử dụng toán tử ? :
+        */
+ /* if ((a + b) < 4) {
+      result = 'Below';
+  } else {
+      result = 'Over';
+  }*/
+  let a = +prompt("a: ");
+  let b = +prompt("b: ");
+  result = (a + b < 4) ? 'Below' : 'Over';
+document.write(result);
+ /* Cú pháp:
+
+      Biểu thức 1 ? Biểu thức 2 : biểu thức 3;
+
+  Trong đó:
+
+      Biểu thức 1 là phép toán so sánh logic, kết quả trả về true hoặc false.
+
+      Nếu kết quả trả về của biểu thức 1 là true,
+      thì biểu thức 2 được thực hiện, ngược lại biểu thức 3 được thực hiện.*/
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label for="name" >Tên tài khoản </label>
+<input type="text" id="name" >
+<button onclick="login()" >login</button>
+<script>
+
+    function login() {
+/*
+        lấy giá trị tử ô input
+*/
+        let account = document.getElementById('name').value;
+        if (account == 'admin') {
+           alert('chao admin');
+        } else {
+            alert("sai mk");
+        }
+    }
+</script>
+</body>
+</html>
